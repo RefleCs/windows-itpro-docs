@@ -38,6 +38,8 @@ MDM tool requirements:
 -   Must be configured in Azure AD, and Microsoft Store.
 -   Azure AD identity is required to authorize Microsoft Store services.
 
+It is possible to have multiple Management Tools configured in the Store for Business. For example, if you need to sync your applications to both Intune and System Center Configuration Manager (SCCM) for deployment on classic and modern managed Windows devices.
+
 ## Distribute offline-licensed apps
 
 If your vendor doesn’t support the ability to synchronize applications from the management tool services, or can't connect to the management tool services, your vendor may support the ability to deploy offline licensed applications by downloading the application and license from the store and then deploying the app through your MDM. For more information on online and offline licensing with Store for Business, see [Apps in the Microsoft Store for Business](https://docs.microsoft.com/en-us/microsoft-store/apps-in-microsoft-store-for-business#licensing-model).
